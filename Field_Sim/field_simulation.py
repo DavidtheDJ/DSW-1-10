@@ -50,7 +50,7 @@ class FieldWindow(QMainWindow):
         self.addToolBar(self.animal_tool_bar)
 
         self.field_graphics_view = QGraphicsView()
-        self.field_graphics_view.setScene(FieldGraphicsScene(1,5,0,0))
+        self.field_graphics_view.setScene(FieldGraphicsScene(1,5))
 
         self.field_graphics_view.setFixedHeight(400)
         self.field_graphics_view.setFixedWidth(400)

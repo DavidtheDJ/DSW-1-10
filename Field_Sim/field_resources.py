@@ -2,15 +2,11 @@
 
 # Resource object code
 #
-# Created: Sun Feb 10 17:13:15 2013
-#      by: The Resource Compiler for PyQt (Qt v4.8.3)
+# Created by: The Resource Compiler for PyQt4 (Qt v4.8.7)
 #
 # WARNING! All changes made in this file will be lost!
 
-try:
-    from PyQt4 import QtCore
-except:
-    from PyQt5 import QtCore
+from PyQt4 import QtCore
 
 qt_resource_data = b"\
 \x00\x00\x73\xda\
