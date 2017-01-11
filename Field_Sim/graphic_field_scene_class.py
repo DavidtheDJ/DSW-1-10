@@ -17,8 +17,9 @@ class FieldGraphicsScene(QGraphicsScene):
 
     #constructor
     def __init__(self,max_crops,max_animals):
-        super().__init__()
         
+        super().__init__()
+
         self.field = Field(max_crops,max_animals)
 
         self.background_brush = QBrush()
