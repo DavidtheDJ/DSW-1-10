@@ -7,7 +7,7 @@ from sheep_class import *
 
 import field_resources
 
-class SheepGraphicsPixmap(AnimalGraphicsPixmapItem):
+class SheepGraphicsPixmapItem(AnimalGraphicsPixmapItem):
     """this class provides a graphical represantation of a sheep"""
 
     #constructor
@@ -17,4 +17,4 @@ class SheepGraphicsPixmap(AnimalGraphicsPixmapItem):
 
         super().__init__(self.available_graphics)
 
-        self.animal = sheep("")
+        self.animal = Sheep("")
